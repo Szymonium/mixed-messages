@@ -1,3 +1,4 @@
+const futureTeller = () => {
 const array1 = ["You"];
 const array2 = ["are going to", "are not going to", "will", "won't", "may", "may not", "might", "might not"];
 const array3 = ["have", "be"];
@@ -46,3 +47,5 @@ for (let i = 1; i <= 5; i++) {
 sentence = sentence.join(" ");
 
 console.log(sentence);
+}
+
